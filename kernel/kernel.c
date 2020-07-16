@@ -4,7 +4,7 @@
 #include "sys.h"
 #include "string.h"
 #include "stdio.h"
-#include "vga.h"
+#include "../drivers/graphics/vga.h"
 
 #ifndef __i686__
 #warning "Current cross-compiler:"
