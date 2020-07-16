@@ -19,7 +19,6 @@
 #endif
 
 void main() {
-	// Initialize VGA in case the user has VGA support
 	vga_init();
 	vga_println("Kernel Initialized");
 }
